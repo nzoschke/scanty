@@ -10,9 +10,9 @@ configure do
 	require 'ostruct'
 	Blog = OpenStruct.new(
 		:title => 'a scanty blog',
-		:author => 'John Doe',
+		:author => 'Noah Zoschke',
 		:url_base => 'http://localhost:4567/',
-		:admin_password => 'changeme',
+		:admin_password => '88cos69X',
 		:admin_cookie_key => 'scanty_admin',
 		:admin_cookie_value => '51d6d976913ace58',
 		:disqus_shortname => nil
