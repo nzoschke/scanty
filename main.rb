@@ -9,7 +9,7 @@ configure do
 
 	require 'ostruct'
 	Blog = OpenStruct.new(
-		:title => 'a scanty blog',
+		:title => 'Blog',
 		:author => 'Noah Zoschke',
 		:url_base => 'http://localhost:4567/',
 		:admin_password => '88cos69X',
