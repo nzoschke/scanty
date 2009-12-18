@@ -8,7 +8,7 @@
 	<% if Blog.google_analytics_account_id %>	
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-12126878-1']);
+			_gaq.push(['_setAccount', <%= Blog.google_analytics_account_id %>]);
 			_gaq.push(['_trackPageview']);
 
 			(function() {
@@ -19,7 +19,6 @@
 			})();
 		</script>
 	<% end %>
-	
 </head>
 <body>
 <div id="header">
