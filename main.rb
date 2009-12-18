@@ -15,7 +15,8 @@ configure do
 		:admin_password => '88cos69X',
 		:admin_cookie_key => 'scanty_admin',
 		:admin_cookie_value => 'a42b33bbd9c0ff5098b63bb47a58812b',
-		:disqus_shortname => 'noahzoschke'
+		:disqus_shortname => 'noahzoschke',
+		:google_analytics_account_id => 'UA-12126878'
 	)
 end
 
