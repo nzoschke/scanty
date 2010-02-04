@@ -54,3 +54,4 @@ task :import => :environment do
 		DB[:posts] << post
 	end
 end
+
